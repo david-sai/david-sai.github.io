@@ -1,0 +1,199 @@
+body {
+    background-color: #E0E2DB;
+    margin: 50px 150px;
+}
+
+h1 {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 80px;
+    line-height: 0.8;
+}
+
+h2 {
+
+    line-height: 1.5;
+}
+
+a:hover {
+    color: #3B5147;
+    background-color: #D2D4C8;
+}
+
+#logo {
+    float: left;
+    font-size: 40px;
+    font-family: myFont;
+    margin: 0px;
+}
+
+.intro-text {
+    margin: 50px;
+}
+
+.contacts {
+    display: flex;
+
+}
+
+.contacts img {
+    width: 60px;
+    padding: 20px 40px 0px 0px;
+}
+
+.contacts a:hover {
+    background-color: rgba(0,0,0,0);
+}
+
+#check-out {
+    font-size: 24px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav .link {
+    float: right;
+    color: #4C2719;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    font-weight: bold;
+}
+
+
+/* Add a black background color to the top navigation */
+.footer {
+    overflow: hidden;
+    text-align: center;
+    margin: 30px;
+}
+
+/* Style the links inside the navigation bar */
+.footer .link {
+    float: right;
+    color: #4C2719;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.footer a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.footer a.active {
+    font-weight: bold;
+}
+
+.info {
+    font-size: 20px;
+}
+
+.flex-row-original {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 3vw;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: col;
+}
+
+.project-square {
+    position: relative;
+}
+
+.project-square img {
+    width: 20vw;
+    height: 20vw;
+    border-radius: 10%;
+    border: 5px solid #555;
+    transition: filter 1s;
+    overflow: hidden;
+}
+
+.project-square:hover img {
+    filter: blur(14px);
+}
+
+.project-square:hover p{
+    visibility: visible;
+    opacity: 1;
+}
+
+.project-square p {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    visibility: hidden;
+    color: white;
+    border-radius: 10%;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-size: 1.5vw;
+    background-color: rgba(0,0,0,0.85);
+    transition: opacity 1s, visibility 1s;
+}
+
+.flex-row a:hover {
+    background-color: rgba(0,0,0,0);
+}
+
+#about-body img{
+    width: 30vw;
+}
+
+#about-body {
+    align-items: center;
+}
+
+* {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #364958;
+}
+
+#toggle {
+    width: 4vw;
+    height: 2vw;
+    background: black;
+    float: right;
+    
+}
+
+@font-face {
+    font-family: myFont;
+    src:url(assets/Copyduck.ttf);
+}
+
